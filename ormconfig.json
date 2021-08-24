@@ -1,0 +1,13 @@
+{
+    "type": "postgres",
+    "name": "default",
+    "host": "localhost",
+    "port": 5432,
+    "username": "pwd",
+    "password": "pwd",
+    "database": "typegraphqltypeormplay",
+    "synchronize": true,
+    "logging": true,
+    "entities": ["entities/*.*"],
+    "dropSchema": false
+}
